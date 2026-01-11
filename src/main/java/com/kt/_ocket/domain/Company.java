@@ -24,4 +24,11 @@ public class Company extends BaseEntity {
 
 	@OneToMany(mappedBy = "company")
 	private List<Worker> workers = new ArrayList<>();
+
+	public Company(String name, String description, String background, String strengths) {
+		this.name = name;
+		this.description = description;
+		this.background = background;
+		this.strengths = strengths;
+	}
 }

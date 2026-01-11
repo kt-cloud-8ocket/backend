@@ -15,7 +15,6 @@ public class Worker extends BaseEntity {
 	private String name;
 	private String role;
 	private String field;
-	private String description;
 
 	@ManyToOne
 	@JoinColumn(name = "company_id")

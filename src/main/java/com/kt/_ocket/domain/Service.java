@@ -17,7 +17,6 @@ public class Service extends BaseEntity {
 	private String target;
 	private String description;
 	private String features;
-	private String uniquePoints;
 
 	@ManyToOne
 	@JoinColumn(name = "company_id")
